@@ -29,13 +29,16 @@
 </template>
 
 <script>
+// importing the json mail data, in a real app I'd do a db lookup/api call.
 import mailData from '~/assets/data.json'
+import MailCard from '~/components/MailCard.vue'
 
 // In vue this is where you manage an individual page's state.
 // In an actual app I would use the vuex store (same idea as redux), but since
 // this is just a demo and I can keep track of the state easily, I will just
 // pass data through to
 export default {
+  components: { MailCard },
   data () {
     return {
       page: 0,
@@ -91,10 +94,6 @@ export default {
   margin-left: 5px; margin-right: 5px;
   display: inline-block;
   float: right;
-}
-
-.b-button {
-
 }
 
 </style>
