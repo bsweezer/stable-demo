@@ -76,12 +76,12 @@ export default {
 .gridItemContainer {
   height: 25rem;
   min-width: 20rem;
-  margin: 20px;
+  margin: 5px;
 }
 
 .application {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .left {
