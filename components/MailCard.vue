@@ -86,8 +86,11 @@
 </template>
 
 <script>
+// I used moment because I couldn't be bothered to manually parse a timestamp
+// and make it look pretty
 import moment from 'moment'
 
+// props = the stuff you pass in from the parent
 export default {
   props: ['mailData'],
   methods: {

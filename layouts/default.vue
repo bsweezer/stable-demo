@@ -16,8 +16,6 @@ export default {
 
 <style>
 html {
-  font-family: sans-serif;
-  font: 'Noto Sans';
   margin: 0;
   padding: 0;
 }
